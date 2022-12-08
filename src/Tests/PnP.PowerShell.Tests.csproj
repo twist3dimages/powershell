@@ -21,7 +21,7 @@
     <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.0.3" />
     <PackageReference Include="Microsoft.PowerShell.ConsoleHost" Version="7.0.3" />
     <PackageReference Include="Microsoft.SharePointOnline.CSOM" Version="16.1.*" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="PnP.Framework" Version="0.1.*-*" Condition="'$(LocalDebug)' != 'true'" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.8.0" />
@@ -33,7 +33,7 @@
     <PackageReference Include="TextCopy" Version="4.2.0" />
     <ProjectReference Include="..\ALC\PnP.PowerShell.ALC.csproj" />
     <PackageReference Include="System.Management.Automation" Version="7.0.3" />
-    <PackageReference Include="NewtonSoft.Json" Version="12.0.3" />
+    <PackageReference Include="NewtonSoft.Json" Version="13.0.2" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.1.18" />
     <PackageReference Include="MSTest.TestFramework" Version="1.1.18" />
     <Reference Include="PnP.Framework" Condition="'$(LocalPnPFramework)' == 'true'">
